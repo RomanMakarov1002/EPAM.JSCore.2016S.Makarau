@@ -7,6 +7,6 @@ for (var i = 0; i < data.length; i++){
 		console.log('data[%d] = %s', i, 'не указано');
 	}
 	else{
-		console.log('data[%d] = %s', i, data[i]);
+		console.log('data[%d] = %s', i, Number(data[i]));	//returns numeric value
 	}	
 }
