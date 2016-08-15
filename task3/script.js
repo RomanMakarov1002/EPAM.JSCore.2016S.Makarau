@@ -28,17 +28,18 @@ $(document).ready(function(){
 
 		$blocks = $('.block-content');
 		$blocks.each(function(){
-			if ($(this).text() > 75){
-				$(this).css('background-color', '#f44336');
-				$(this).css('box-shadow', '0px 0px 0px 2px white');
+			var $this = $(this);
+			if ($this.text() > 75){
+				$this.css('background-color', '#f44336');
+				$this.css('box-shadow', '0px 0px 0px 2px white');
 			}
-			else if ($(this).text() > 50){
-				$(this).css('background-color', '#ff9800');
-				$(this).css('box-shadow', '0px 0px 0px 2px white');
+			else if ($this.text() > 50){
+				$this.css('background-color', '#ff9800');
+				$this.css('box-shadow', '0px 0px 0px 2px white');
 			}
-			else if ($(this).text() > 25){
-				$(this).css('background-color', '#4caf50');
-				$(this).css('box-shadow', '0px 0px 0px 2px white');
+			else if ($this.text() > 25){
+				$this.css('background-color', '#4caf50');
+				$this.css('box-shadow', '0px 0px 0px 2px white');
 			}
 		});
 	});
