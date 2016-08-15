@@ -1,0 +1,39 @@
+.content{
+	width: 1200px;
+	overflow: hidden;
+}
+
+.content-container{
+	width: 600px;
+	min-height: 300px;
+	border: 1px solid black;
+	float: left;
+	padding: 2px;
+}
+
+.buttons-container{
+	width: 100px;
+	float: left;
+	margin-left: 20px;
+}
+
+.buttons-container button{
+	cursor: pointer;
+	min-width: 120px;
+	min-height: 30px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+.block-content{
+	margin: 0;
+	width: 50px;
+	height: 50px;
+	box-shadow: 0px 0px 0px 2px #CEC5C5;
+	float: left;
+}
+
+.block-content p{
+	margin-top: 5px;
+	text-align: center;
+}
