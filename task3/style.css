@@ -11,18 +11,22 @@
 	padding: 2px;
 }
 
-.buttons-container{
-	width: 100px;
-	float: left;
-	margin-left: 20px;
-}
-
-.buttons-container button{
+.buttons-container div{
 	cursor: pointer;
 	min-width: 120px;
 	min-height: 30px;
 	background-color: white;
 	margin-bottom: 5px;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 6px;
+	-webkit-user-select: none; 
+}
+
+.buttons-container{
+	width: 100px;
+	float: left;
+	margin-left: 20px;
 }
 
 .block-content{
@@ -36,4 +40,29 @@
 .block-content p{
 	margin-top: 5px;
 	text-align: center;
+}
+
+.red-block{
+	background-color: #f44336;
+	box-shadow: 0px 0px 0px 2px white;
+}
+
+.orange-block{
+	background-color: #ff9800;
+	box-shadow: 0px 0px 0px 2px white;
+}
+
+.green-block{
+	background-color: #4caf50;
+	box-shadow: 0px 0px 0px 2px white;
+}
+
+.buttons-container div.disabled-div-button{
+	opacity: 0.25;
+	cursor: not-allowed;
+}
+
+.buttons-container div.enabled-div-button{
+	opacity: 1;
+	cursor: pointer;
 }
