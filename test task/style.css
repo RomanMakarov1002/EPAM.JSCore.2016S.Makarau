@@ -1,0 +1,127 @@
+.main-wrapper{
+	width: 1200px;
+}
+
+.game-container{
+	width: 100%;
+	border: 2px solid gray;
+	background-color: #F0F0F0;
+	box-shadow: 0px 0px 20px #C8C9C5;
+}
+
+.game-area-container{
+	position: relative;
+	width: 62.5%;
+	height: 460px;
+	margin-top: 2%;
+	margin-left: 15%;
+	box-shadow: 0px 0px 0px 2px gray;
+	margin-bottom: 40px;
+}
+
+.game-action-container{
+	width: 448px;
+	height: 450px;
+	margin-top: 5px;
+	margin-right: 2px;
+	box-shadow: 0px 0px 0px 2px gray;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.game-counters-container{
+	float: left;
+    width: 150px;
+    height: 460px;
+	position: relative;
+}
+
+.upper-left{
+	width: 100%;
+	height: 100px;
+}
+
+.game-counters-container-cheese, .game-counters-container-cherry, .game-counters-container-orange, .game-counters-container-pumpkin{
+	width: 138px;
+	//margin-top: 5px;
+    //margin-left: 5px;
+	margin: 5px;
+	height: 138px;
+	box-shadow: 0px 0px 0px 2px gray;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+}
+
+.game-counters-container-cheese p, .game-counters-container-cherry p, .game-counters-container-orange p, .game-counters-container-pumpkin p{
+	margin-top: 110px;
+	text-align: center;
+}
+
+.game-counters-container-cheese{
+	background-image: url('cheese.png');
+}
+
+.game-counters-container-pumpkin{
+	bottom: 0;
+	background-image: url('pumpkin.png');
+}
+
+.game-counters-container-orange{
+	bottom: 0;
+	background-image: url('orange.png');
+}
+
+.game-counters-container-cherry{
+	background-image: url('cherry.png');
+}
+
+.game-bomb{
+	background-image: url('bomb.png');
+	position: absolute;
+}
+
+.btn{
+	margin-left: 86%;
+	width: 140px;
+	height: 40px;
+	margin-top: 25px;
+	border: 1px;
+	border-radius: 5px;
+}
+
+.btn-start{
+	background-color: #30A133;
+	color: white;
+}
+
+.btn-stop{
+	background-color: yellow;
+	color: #30A133;
+}
+
+.btn-resume{
+	background-color: #30A133;
+	color: white;
+}
+
+.content-wrapper{
+	margin: 0;
+	padding: 0;
+	border-top: solid 1px #cfcfcf;
+	border-left: solid 1px #cfcfcf;
+	border-right: solid 1px #cfcfcf;
+	background-color: #FFFF99;
+}
+
+.resource{
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.game-bomb{
+	cursor: default;
+}
