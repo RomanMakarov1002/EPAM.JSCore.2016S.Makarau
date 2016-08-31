@@ -1,0 +1,20 @@
+body { font-family: Calibri; font-size: 15px; margin: 30px; }
+
+.content { position: relative; }
+.game-over { display: none; margin: 0 auto; width: 900px; text-align: center; color: #f44336; font-size: 21px; font-weight: bold; }
+
+#field { width: 900px; margin: 0 auto; background-image: url(../img/grass3.jpg); background-size: cover;}
+.field-line { height: 80px;  position: relative;  }
+
+.buttons { width: 900px; margin: 0 auto; margin-top: 5px; }
+.button { display: inline-block; border: 1px solid #eee; padding: 5px 10px; margin-bottom: 5px; cursor: pointer; text-align: center; border-radius: 10px; }
+.button#btnGenerate,.button#btnExplode,.button#btnGrowOld,.button#btnSlowUp, .button#btnBomb{ background-color: #ff9800; }
+.btn-disabled { cursor: not-allowed; opacity: 0.5; }
+.zombie { position: absolute; top: 0; right: 0; margin-top: 9px; }
+.zombie.michael { width: 46px; height: 69px; background-image: url(../img/michael.gif); background-size: cover; }
+.zombie.strong { width: 60px; height: 73px; background-image: url(../img/strong.gif); background-size: cover; }
+.zombie p{ width: 46px; height: 11px; background-color: red; top: 0;margin: auto; margin-top: -9px; border: 0.5px solid black; font-size: 11px; text-align: center; margin-before : 0; }
+
+.scoreboard { width: 900px; margin: auto; }
+.scoreboard p { color: #f44336; font-size: 21px; font-weight: bold; display: inline-block; }
+.bomb { width: 70px; height: 70px; background-image: url(../img/explode.gif); background-size: cover; position: absolute; }

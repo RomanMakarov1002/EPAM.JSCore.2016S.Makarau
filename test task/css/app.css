@@ -2,14 +2,14 @@
 	width: 1200px;
 }
 
-.game-container{
+.game{
 	width: 100%;
 	border: 2px solid gray;
 	background-color: #F0F0F0;
 	box-shadow: 0px 0px 20px #C8C9C5;
 }
 
-.game-area-container{
+.game-area{
 	position: relative;
 	width: 62.5%;
 	height: 460px;
@@ -19,7 +19,7 @@
 	margin-bottom: 40px;
 }
 
-.game-action-container{
+.game-action{
 	width: 448px;
 	height: 450px;
 	margin-top: 5px;
@@ -30,7 +30,7 @@
 	position: relative;
 }
 
-.game-counters-container{
+.game-counters{
 	float: left;
     width: 150px;
     height: 460px;
@@ -42,10 +42,8 @@
 	height: 100px;
 }
 
-.game-counters-container-cheese, .game-counters-container-cherry, .game-counters-container-orange, .game-counters-container-pumpkin{
+.cheese, .cherry, .orange, .pumpkin{
 	width: 138px;
-	//margin-top: 5px;
-    //margin-left: 5px;
 	margin: 5px;
 	height: 138px;
 	box-shadow: 0px 0px 0px 2px gray;
@@ -54,31 +52,31 @@
 	position: absolute;
 }
 
-.game-counters-container-cheese p, .game-counters-container-cherry p, .game-counters-container-orange p, .game-counters-container-pumpkin p{
+.cheese p, .cherry p, .orange p, .pumpkin p{
 	margin-top: 110px;
 	text-align: center;
 }
 
-.game-counters-container-cheese{
-	background-image: url('cheese.png');
+.cheese{
+	background-image: url(../img/cheese.png);
 }
 
-.game-counters-container-pumpkin{
+.pumpkin{
 	bottom: 0;
-	background-image: url('pumpkin.png');
+	background-image: url(../img/pumpkin.png);
 }
 
-.game-counters-container-orange{
+.orange{
 	bottom: 0;
-	background-image: url('orange.png');
+	background-image: url(../img/orange.png);
 }
 
-.game-counters-container-cherry{
-	background-image: url('cherry.png');
+.cherry{
+	background-image: url(../img/cherry.png);
 }
 
 .game-bomb{
-	background-image: url('bomb.png');
+	background-image: url(../img/bomb.png);
 	position: absolute;
 }
 
